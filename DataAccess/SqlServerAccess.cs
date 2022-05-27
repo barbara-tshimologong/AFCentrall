@@ -20,7 +20,7 @@ namespace DataAccess
             {
                 cn.ConnectionString = ConnectionString;
                 cn.Open();
-
+                //This is to demonstrate a ado method.
                 using (SqlCommand cmd = new SqlCommand())
                 {
                     cmd.Connection = cn;
